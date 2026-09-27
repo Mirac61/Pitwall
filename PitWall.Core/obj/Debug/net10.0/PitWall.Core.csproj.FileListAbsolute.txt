@@ -1,0 +1,11 @@
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/bin/Debug/net10.0/PitWall.Core.deps.json
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/bin/Debug/net10.0/PitWall.Core.dll
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/bin/Debug/net10.0/PitWall.Core.pdb
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/PitWall.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/PitWall.Core.AssemblyInfoInputs.cache
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/PitWall.Core.AssemblyInfo.cs
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/PitWall.Core.csproj.CoreCompileInputs.cache
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/PitWall.Core.dll
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/refint/PitWall.Core.dll
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/PitWall.Core.pdb
+/home/mirac/Projekte/personal/Pitwall/PitWall.Core/obj/Debug/net10.0/ref/PitWall.Core.dll

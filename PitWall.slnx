@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PitWall.Api/PitWall.Api.csproj" />
+  <Project Path="PitWall.Core/PitWall.Core.csproj" />
+  <Project Path="PitWall.Tests/PitWall.Tests.csproj" />
+</Solution>
