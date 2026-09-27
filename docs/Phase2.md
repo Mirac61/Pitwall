@@ -28,8 +28,8 @@ Nur Hinweise, kein fertiger Code. Die Stichworte in `Code-Schrift` sind die Ding
 ## 2. Dienste registrieren (Dependency Injection)
 **Ziel:** ASP.NET weiß, wie `ISessionData` und die Uhr erzeugt werden.
 
-- [ ] `ISessionData` → `FileSessionData` als Singleton (`AddSingleton<ISessionData>(...)`)
-- [ ] `TimeProvider.System` als Singleton registrieren
+- [x] `ISessionData` → `FileSessionData` als Singleton (`AddSingleton<ISessionData>(...)`)
+- [x] `TimeProvider.System` als Singleton registrieren
 
 **Frage an dich:** Warum Singleton und nicht `AddScoped`? (Tipp: Wie oft braucht man das Objekt?)
 
