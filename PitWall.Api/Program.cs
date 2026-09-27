@@ -9,6 +9,7 @@ var dataDir = Path.GetFullPath(Path.Combine(builder.Environment.ContentRootPath,
 builder.Services.Configure<PitWallOptions>(section);
 builder.Services.AddSingleton<ISessionData>(new FileSessionData(dataDir));
 builder.Services.AddSingleton(TimeProvider.System);
+builder.Services.AddSingleton<LiveRace>();
 
 var app = builder.Build();
 
