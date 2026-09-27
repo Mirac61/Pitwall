@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PitWall.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ff03c44a93539b1ebaf09d835753a084efe7613")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1519c67cb0e2c3e47d70e657ca534513b656109")]
 [assembly: System.Reflection.AssemblyProductAttribute("PitWall.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PitWall.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
