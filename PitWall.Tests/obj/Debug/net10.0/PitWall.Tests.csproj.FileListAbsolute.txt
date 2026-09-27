@@ -97,3 +97,5 @@
 /home/mirac/Projekte/personal/Pitwall/PitWall.Tests/obj/Debug/net10.0/PitWall.Tests.pdb
 /home/mirac/Projekte/personal/Pitwall/PitWall.Tests/obj/Debug/net10.0/PitWall.Tests.genruntimeconfig.cache
 /home/mirac/Projekte/personal/Pitwall/PitWall.Tests/obj/Debug/net10.0/ref/PitWall.Tests.dll
+/home/mirac/Projekte/personal/Pitwall/PitWall.Tests/bin/Debug/net10.0/TestData/9523/drivers.json
+/home/mirac/Projekte/personal/Pitwall/PitWall.Tests/bin/Debug/net10.0/TestData/9523/position.json
