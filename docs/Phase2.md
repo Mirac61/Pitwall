@@ -6,17 +6,17 @@ Nur Hinweise, kein fertiger Code. Die Stichworte in `Code-Schrift` sind die Ding
 ---
 
 ## 0. Vorher
-- [ ] Aktuellen Stand committen (Phase 1 fertig)
-- [ ] Template-Reste aus `PitWall.Api` löschen (WeatherForecast, `/debug`-Endpunkt)
+- [x] Aktuellen Stand committen (Phase 1 fertig)
+- [x] Template-Reste aus `PitWall.Api` löschen (WeatherForecast, `/debug`-Endpunkt)
 
 ---
 
 ## 1. Konfiguration
 **Ziel:** Datenordner, Session und Geschwindigkeit nicht hart im Code.
 
-- [ ] In `appsettings.json` einen Abschnitt `PitWall` mit `DataDir`, `SessionKey`, `Speed`
-- [ ] Werte in `Program.cs` lesen: `builder.Configuration["PitWall:SessionKey"]`
-- [ ] Optional sauberer: eigene Klasse `PitWallOptions` + `builder.Services.Configure<PitWallOptions>(...)`
+- [x] In `appsettings.json` einen Abschnitt `PitWall` mit `DataDir`, `SessionKey`, `Speed`
+- [x] Werte in `Program.cs` lesen: `builder.Configuration["PitWall:SessionKey"]`
+- [x] Optional sauberer: eigene Klasse `PitWallOptions` + `builder.Services.Configure<PitWallOptions>(...)`
 
 **Stolperstein:** Relative Pfade beziehen sich darauf, von wo du startest. Pfad über
 `builder.Environment.ContentRootPath` zusammenbauen, dann ist es egal.

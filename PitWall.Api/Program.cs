@@ -1,11 +1,15 @@
+using PitWall.Api;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Schritt 1–5: Konfiguration lesen, Dienste registrieren
-// (AddSingleton, AddHostedService, AddSignalR …)
+var section = builder.Configuration.GetSection("PitWall");
+var options = section.Get<PitWallOptions>() ?? new();
+var dataDir = Path.GetFullPath(Path.Combine(builder.Environment.ContentRootPath, options.DataDir));
+
+builder.Services.Configure<PitWallOptions>(section);
+
+Console.WriteLine($"Daten: {dataDir} | Session: {options.SessionKey} | Speed: {options.Speed}");
 
 var app = builder.Build();
-
-// Schritt 5–6: Endpunkte und statische Dateien
-// (UseDefaultFiles, UseStaticFiles, MapHub …)
 
 app.Run();
